@@ -1,1 +1,1 @@
-https://lgumaigo.github.io/maigo/maigowebsite/index.php
+https://lgumaigo.github.io/maigo/maigowebsite/index.html
