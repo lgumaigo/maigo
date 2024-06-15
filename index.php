@@ -14,12 +14,16 @@
     <head>
         <meta charset="utf-8">
         <link rel="shortcut icon" type="image/png" href="img/iimages.png">                
+        <meta http-equiv="refresh" content="0;url=index.php">
 
         <title> Maigo Lanao del Norte || Official Website</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
-
+If you are not redirected automatically, <a href="index.php">click here</a>.
+<script>
+window.location.replace("index.php");
+</script>
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
