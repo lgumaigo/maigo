@@ -1,0 +1,134 @@
+.card-box {
+    transition: transform .5s;
+}
+
+.card-box:hover{
+     transform: scale(1.04);
+}
+
+img.city-barangays-img {
+    width: 76%;
+}
+
+h1.text-barangays {
+    font-size: 90px;
+}
+
+.banner-city-barangays{
+    /* background-image: linear-gradient(35deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 73%), url('../../assets/img/final-banner-1.png'); */
+    /* height:200px; */
+    border-radius:20px;
+    background-image: url('../../img/images.jpeg')!important;
+    /* padding: 20px 50px 20px 50px; */
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+    background-position: center, center;
+}
+
+.card-box {
+    border: 1px solid #e6d4d4;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
+}
+
+.container.card-box {
+    padding: 20px;
+    /* background: #efefef; */
+    background-image: linear-gradient(to top, rgba(239, 239, 239, 0.9) 0%, rgba(239, 239, 239, 0.9) 44%, rgba(239, 239, 239, 0.9) 66%), url("../../assets/img/iliganbarangays.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+    background-position: center, center;
+    height: 100%;
+
+   
+}
+
+h3.job-tittle {
+    font-size: 25px;
+}
+
+
+
+
+@media only screen and (max-width: 1399px) and (min-width:1200px){
+
+}
+
+@media only screen and (max-width: 1199px) and (min-width:992px){
+
+    .col-box {
+        width: 50%!important;
+    }
+
+}
+
+@media only screen and (max-width: 991px) and (min-width:768px){
+
+    .col-box {
+        width: 50%!important;
+    }
+
+    .col-content-barangay {
+        width: 100%!important;
+    }
+
+
+    h1.text-barangays {
+        font-size: 50px;
+    }
+
+    .col-for-side-nav {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 767px){
+
+    section.section-banner {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    h1.text-barangays {
+        font-size: 50px!important;
+    }
+
+    .banner-city-barangays {
+        padding-bottom: 30px;
+    }
+
+    img.city-barangays-img {
+        width: 76%;
+        padding-top: 6px;
+    }
+
+    .col-content-banner {
+        display:flex;
+        justify-content:center
+    }
+    
+
+    .row.city-barangays-banner-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .col-content-banner {
+        width: 100%!important;
+    }
+
+    .col-for-side-nav {
+        display: none;
+    }
+
+    .col-content-barangay {
+        width: 100%!important;
+    }
+
+    .col-box {
+        width: 100%!important;
+    }
+
+}

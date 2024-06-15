@@ -1,0 +1,168 @@
+.card-box {
+    transition: transform .5s;
+}
+
+.card-box:hover {
+     transform: scale(1.04);
+}
+
+h4.text-category {
+    font-size: 40px;
+    margin-top: 40px!important;
+}
+
+
+img.city-departments-img {
+    width: 76%;
+}
+
+
+.banner-city-departments{
+    /* background-image: linear-gradient(35deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 73%), url('../../assets/img/final-banner-1.png'); */
+    /* height:200px; */
+    border-radius:20px;
+    background-image: url('../../img/images.jpeg')!important;
+    /* padding: 20px 50px 20px 50px; */
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+    background-position: center, center;
+}
+
+
+h1.text-departments {
+    font-size:90px;
+}
+
+
+.card-box {
+    border: 1px solid #e6d4d4;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 100%;
+
+}
+
+.container.card-box {
+    padding: 20px;
+    background: #efefef;
+}
+
+.departments_logo{
+    width: 100px;
+}
+
+
+.content-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 1399px) and (min-width:1200px){
+    .col-box-card {
+        width: 100%!important;
+    }
+
+}
+
+@media only screen and (max-width: 1199px) and (min-width:992px){
+    .col-box-card {
+        width: 100%!important;
+    }
+    
+    h1.text-departments {
+        font-size: 65px;
+    }
+
+    h4.text-category {
+        font-size: 31px!important;
+    }
+  
+
+}
+
+@media only screen and (max-width: 991px) and (min-width:768px){
+
+    h4.text-category {
+        font-size: 31px!important;
+    }
+    
+    h1.text-departments {
+        font-size: 50px;
+    }
+
+    .col-for-side-nav {
+        display: none;
+    }
+
+    .col-contents {
+        width: 100%!important;
+    }
+
+    .col-box-card {
+        width: 100%!important;
+    }
+
+}
+
+@media only screen and (max-width: 767px){
+
+    h4.text-category {
+        font-size: 25px!important;
+    }
+
+
+    section.section-banner {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    img.city-departments-img {
+        width: 76%;
+        padding-top: 20px;
+    }
+
+    .banner-city-departments {
+        padding-bottom: 20px;
+    }
+
+    h1.text-departments {
+        font-size: 45px;
+    }
+
+    .city-departments-banner-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .col-content-banner {
+        width: 100%!important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .col-for-side-nav {
+        display: none;
+    }
+
+    .col-contents {
+        width: 100%!important;
+    }
+
+    .col-box-card {
+        width: 100%!important;
+    }
+    .card-box {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+  .content-image{
+    margin: auto;
+
+ }
+ 
+
+}
